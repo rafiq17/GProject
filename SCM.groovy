@@ -6,6 +6,6 @@ job('example-job-from-job-dsl') {
         cron("@hourly")
     }
     steps {
-        shell("echo 'Hello World'")
+        shell("echo 'Hi Everyone'")
     }
 }

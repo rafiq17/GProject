@@ -6,6 +6,6 @@ job('example-job-from-job-dsl') {
         cron("@hourly")
     }
     steps {
-        cmd("C:\Users\mohamed.r.mehaboob\Desktop\groovy-2.4.12\bin\groovy")
+        cmd("C:\Users\mohamed.r.mehaboob\Desktop\groovy-2.4.12\bin\groovy.bat")
     }
 }
